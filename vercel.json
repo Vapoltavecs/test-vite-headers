@@ -1,0 +1,65 @@
+{
+  "headers": [
+    {
+      "source": "/(.*\\.(data.gz))$",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/gzip"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.(wasm.gz))$",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.(js.gz))$",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": {
+        "headers": [
+          {
+            "key": "ABGD",
+            "value": "sdlkfnlsdf"
+          }
+        ]
+      }
+    },
+    {
+      "source": "/(.gz)",
+      "headers": {
+        "headers": [
+          {
+            "key": "GGZIPDSFSDF",
+            "value": "its a gzip"
+          }
+        ]
+      }
+    }
+  ]
+}
