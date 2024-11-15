@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "^/([^/]+?).gz$",
+      "source": "^Build/([^/]+?).gz$",
       "headers": [
         {
           "key": "Content-Encoding",
