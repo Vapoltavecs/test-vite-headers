@@ -41,25 +41,22 @@
     },
     {
       "source": "/(.*)",
-      "headers": {
-        "headers": [
-          {
-            "key": "ABGD",
-            "value": "sdlkfnlsdf"
-          }
-        ]
-      }
+      "headers": [
+        {
+          "key": "ABGD",
+          "value": "sdlkfnlsdf"
+        }
+      ]
     },
     {
       "source": "/(.gz)",
-      "headers": {
-        "headers": [
-          {
-            "key": "GGZIPDSFSDF",
-            "value": "its a gzip"
-          }
-        ]
-      }
+
+      "headers": [
+        {
+          "key": "GGZIPDSFSDF",
+          "value": "its a gzip"
+        }
+      ]
     }
   ]
 }
