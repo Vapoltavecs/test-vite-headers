@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*\\.(data.gz))$",
+      "source": "/^(?:/([^/]+).data.gz)(?:/$)?$/i",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/(.*\\.(wasm.gz))$",
+      "source": "/^(?:/([^/]+).wasm.gz)(?:/$)?$/i",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/(.*\\.(js.gz))$",
+      "source": "/^(?:/([^/]+).js.gz)(?:/$)?$/i",
       "headers": [
         {
           "key": "Content-Encoding",
