@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.tsx";
 import { pathToRegexp } from "path-to-regexp";
 
-console.log(pathToRegexp("/:foo.data.gz"));
+// console.log(pathToRegexp("/:foo.data.gz"));
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/^(?:/([^/]+).js.gz)(?:/$)?$/i",
+      "source": "/^(?:/([^/]+).data.gz)(?:/$)?$/i",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -36,25 +36,6 @@
         {
           "key": "Content-Type",
           "value": "application/javascript"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "ABGD",
-          "value": "sdlkfnlsdf"
-        }
-      ]
-    },
-    {
-      "source": "/(.gz)",
-
-      "headers": [
-        {
-          "key": "GGZIPDSFSDF",
-          "value": "its a gzip"
         }
       ]
     }
