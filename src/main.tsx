@@ -11,3 +11,22 @@ createRoot(document.getElementById("root")!).render(
     <App />
   </StrictMode>
 );
+
+
+// {
+//   "headers": [
+//     {
+//       "source": "^/Build/([^/]+?).gz$",
+//       "headers": [
+//         {
+//           "key": "Content-Encoding",
+//           "value": "gzip"
+//         },
+//         {
+//           "key": "Content-Type",
+//           "value": "application/gzip"
+//         }
+//       ]
+//     }
+//   ]
+// }
